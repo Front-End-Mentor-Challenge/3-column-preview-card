@@ -27,7 +27,7 @@ h1{
     margin: 3em 2em;
     border-radius: 10px;
     overflow: hidden;
-    max-width: 1000px;
+    max-width: 935px;
 
 }
 .card{
@@ -75,15 +75,23 @@ h1{
 @media (min-width:630px) and (max-width:959px){
     .wrapper{
         flex-direction: row;
+        min-width: 550px;
     }
     .card{
-        padding: 1.5em;}
-       /*  button{
-            width: 80% !important;
-        } */
+        padding: 1.5em;
+    p{
+        padding-bottom: 2em;
+    }
+    }
+       
 }
 @media(min-width:960px){
     .wrapper{
         flex-direction: row;
+    }
+    .card{
+    p{
+        padding-bottom: 4em;
+    }
     }
 }
